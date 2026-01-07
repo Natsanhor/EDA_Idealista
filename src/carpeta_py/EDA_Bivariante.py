@@ -20,7 +20,7 @@ def precio_metros_cuadrados():
     plt.ylabel("Precio actual (€)")
 
     # Guardado de la imagen
-    plt.savefig("../img/scatter_metros_precio.png", dpi=300, bbox_inches="tight")
+    plt.savefig("src/img/scatter_metros_precio.png", dpi=300, bbox_inches="tight")
     plt.show()
     plt.close()
 
@@ -34,7 +34,7 @@ def habitaciones_precio():
     plt.ylabel("Precio por m² (€)")
 
     # Guardado de la imagen
-    plt.savefig("../img/box_habitaciones_precio_m2.png", dpi=300, bbox_inches="tight")
+    plt.savefig("src/img/box_habitaciones_precio_m2.png", dpi=300, bbox_inches="tight")
     plt.show()
     plt.close()
 
@@ -49,7 +49,7 @@ def ascensor_precio():
     plt.ylabel("Precio (€)")
 
     # Guardado
-    plt.savefig("../img/box_ascensor_precio.png", dpi=300, bbox_inches="tight")
+    plt.savefig("src/img/box_ascensor_precio.png", dpi=300, bbox_inches="tight")
     plt.show()
     plt.close()
 
@@ -64,7 +64,7 @@ def localizacion_precio():
     plt.ylabel("Precio por m² (€)")
 
     # Guardado
-    plt.savefig("../img/box_localizacion_precio_m2.png", dpi=300, bbox_inches="tight")
+    plt.savefig("src/img/box_localizacion_precio_m2.png", dpi=300, bbox_inches="tight")
     plt.show()
     plt.close()
 
@@ -77,6 +77,6 @@ def mapa_calor():
     plt.title("Mapa de correlación de variables numéricas")
 
     # Guardado
-    plt.savefig("../img/heatmap_correlaciones.png", dpi=300, bbox_inches="tight")
+    plt.savefig("src/img/heatmap_correlaciones.png", dpi=300, bbox_inches="tight")
     plt.show()
     plt.close()
